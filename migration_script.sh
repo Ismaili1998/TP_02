@@ -13,3 +13,7 @@ sudo find  ./$src_dir/* -type f ! -name  "config.json" -exec cp  {} ./$des_dir/d
 }
 
 syncfun "$src_dir" "$des_dir" 
+
+
+echo "test branch"
+echo "2 eme test"
